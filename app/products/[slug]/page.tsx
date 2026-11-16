@@ -19,12 +19,11 @@ async function ProductDetails({
 
   return (
     <>
-      <Link href="/products">
-        <h1>{product.name}</h1>
-        <p>{product.category}</p>
-        <p>{product.description}</p>
-        <span>{product.price}</span>;
-      </Link>
+      <Link href="/products">رجوع</Link>
+      <h1>{product.name}</h1>
+      <p>{product.category}</p>
+      <p>{product.description}</p>
+      <span>{product.price}</span>
     </>
   );
 }
